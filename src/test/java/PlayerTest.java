@@ -6,9 +6,9 @@ class PlayerTest {
     @Test
     public void startingValuesForPlayer() {
         Player p1 = new Player(Color.Blue);
-        assertEquals(5, p1.getVillages());
-        assertEquals(4, p1.getCities());
-        assertEquals(15, p1.getRoads());
+        assertEquals(5, p1.getVillagesAvailable());
+        assertEquals(4, p1.getCitiesAvailable());
+        assertEquals(15, p1.getRoadsAvailable());
         assertEquals(0, p1.getWood());
         assertEquals(0, p1.getClay());
         assertEquals(0, p1.getStone());
